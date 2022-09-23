@@ -1,3 +1,6 @@
+@use "../../styles/partials/colors" as *;
+
+
 .Schedule {
 
 
@@ -14,7 +17,7 @@
 
     &__list-item {
         text-align: left;
-        color: #000080;
+        color: $medical;
         font-weight: 600;
         padding-top: 1rem;
         padding-bottom: 1rem;
@@ -26,8 +29,8 @@
 
         &__active {
             font-weight: 700;
-            color: white;
-            background-color: #000080;
+            color: $primary-color;
+            background-color: $medical;
             margin-top: .5rem;
             margin-bottom: .5rem;
             padding-top: .25rem;
@@ -39,14 +42,14 @@
         text-decoration: none;
 
         &:visited {
-            color: #38579b;
+            color: $medical;
         }
     }
 
     &__button {
-        background-color: white;
-        border: #38579b 2px solid;
-        color: #38579b;
+        background-color: $primary-color;
+        border: $medical 2px solid;
+        color: $medical;
         border-radius: 25px;
         padding: .5rem;
         font-weight: 600;

@@ -1,3 +1,6 @@
+@use "../../styles/partials/colors" as *;
+
+
 @keyframes pulse {
     0% {
         transform: scale(0.85);
@@ -13,8 +16,8 @@
 }
 
 .Header {
-    background-color: #38579b;
-    color: white;
+    background-color: $medical;
+    color: $primary-color;
 
     &__title {
         margin: 0;
@@ -41,6 +44,6 @@
 
     &__link {
         text-decoration: none;
-        color: white;
+        color: $primary-color;
     }
 }

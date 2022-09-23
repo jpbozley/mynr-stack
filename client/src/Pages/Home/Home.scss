@@ -1,4 +1,5 @@
 @use "../../styles/global.scss" as *;
+@use "../../styles/partials/colors" as *;
 
 .Home {
     display: flex;
@@ -10,16 +11,16 @@
         height: 35vh;
 
         &-grey {
-            background-color: lightgrey;
+            background-color: $secondary-background;
         }
     }
 
     &__inRange {
-        background-color: palegreen;
+        background-color: $inRange
     }
 
     &__outOfRange {
-        background-color: palevioletred;
+        background-color: $outOfRange;
     }
 
     &__stats {
@@ -35,34 +36,34 @@
 
     &__link {
         text-decoration: none;
-        color: white;
+        color: $primary-color;
 
         &:visited {
-            color: white;
+            color: $primary-color;
         }
     }
 
     &__edit {
         width: 25%;
-        background-color: #38579b;
+        background-color: $medical;
         text-decoration: none;
         border-radius: 25px;
         margin-top: .5rem;
     }
 
     &__upcoming-button {
-        background-color: white;
-        border: #38579b 2px solid;
-        color: #38579b;
+        background-color: $primary-color;
+        border: $medical 2px solid;
+        color: $medical;
         border-radius: 25px;
         padding: .5rem;
         font-weight: 600;
     }
 
     &__taken-button {
-        background-color: white;
-        border: #38579b 2px solid;
-        color: #38579b;
+        background-color: $primary-color;
+        border: $medical 2px solid;
+        color: $medical;
         border-radius: 25px;
         padding: .5rem;
         font-weight: 600;

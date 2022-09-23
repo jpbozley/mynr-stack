@@ -1,6 +1,9 @@
+@use "../../styles/partials/colors" as *;
+
+
 .Medications {
     &__name {
-        color: #000080
+        color: $medical
     }
 
     &__current {
@@ -14,15 +17,15 @@
         justify-content: center;
 
         &-container {
-            border-top: 2px solid #38579b;
+            border-top: 2px solid $medical;
             margin-top: 1rem;
         }
     }
 
     &__button {
-        background-color: white;
-        border: #38579b 2px solid;
-        color: #38579b;
+        background-color: $primary-color;
+        border: $medical 2px solid;
+        color: $medical;
         border-radius: 25px;
         padding: .5rem;
         font-weight: 600;
@@ -30,9 +33,9 @@
     }
 
     &__delete {
-        background-color: white;
-        border: #853642 2px solid;
-        color: #853642;
+        background-color: $primary-color;
+        border: $delete 2px solid;
+        color: $delete;
         border-radius: 25px;
         padding: .25rem;
         font-weight: 600;
