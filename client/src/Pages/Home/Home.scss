@@ -16,13 +16,14 @@
     }
 
     &__prep {
-        background-color: #6EBB51;
-        border: $primary-color 2px solid;
-        color: $primary-color;
+        background-color: $medical;
+        border: none;
+        text-decoration: none;
         border-radius: 25px;
         padding: .5rem;
-        font-weight: 600;
-        margin-bottom: .75rem;
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+
     }
 
     &__prep-link {

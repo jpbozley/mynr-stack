@@ -22,8 +22,8 @@ function Prepare() {
                     <label htmlFor="leafyGreens">Check here if you have had excessive leafy greens</label>
                     <input type="checkbox" value="true" name="leafyGreens" />
                 </div>
-                <input type="submit" value="Send" />
-                <input type="reset" value="Reset" />
+                <input className="prepare__submit" type="submit" value="Send" />
+                <input className="prepare__reset" type="reset" value="Reset" />
             </form>
         </div>
     );
