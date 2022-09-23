@@ -1,0 +1,32 @@
+@use "../../styles/partials/colors" as *;
+
+
+.Footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    display: flex;
+    background-color: $medical;
+    color: $primary-color;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    &__list {
+        display: flex;
+        list-style: none;
+        padding-left: 0;
+        justify-content: space-around;
+        margin: 0;
+        width: 100vw;
+    }
+
+    &__link {
+        color: $primary-color;
+        text-decoration: none;
+
+        &:visited {
+            color: $primary-color
+        }
+    }
+
+}
