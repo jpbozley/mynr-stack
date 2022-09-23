@@ -1,0 +1,41 @@
+.Medications {
+    &__name {
+        color: #000080
+    }
+
+    &__current {
+        display: flex;
+        list-style: none;
+        flex-direction: column;
+    }
+
+    &__interactions {
+        display: flex;
+        justify-content: center;
+
+        &-container {
+            border-top: 2px solid #38579b;
+            margin-top: 1rem;
+        }
+    }
+
+    &__button {
+        background-color: white;
+        border: #38579b 2px solid;
+        color: #38579b;
+        border-radius: 25px;
+        padding: .5rem;
+        font-weight: 600;
+        margin-top: .5rem;
+    }
+
+    &__delete {
+        background-color: white;
+        border: #853642 2px solid;
+        color: #853642;
+        border-radius: 25px;
+        padding: .25rem;
+        font-weight: 600;
+        margin-left: .5rem;
+    }
+}

@@ -1,0 +1,70 @@
+@use "../../styles/global.scss" as *;
+
+.Home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    &__container {
+        width: 50vw;
+        height: 35vh;
+
+        &-grey {
+            background-color: lightgrey;
+        }
+    }
+
+    &__inRange {
+        background-color: palegreen;
+    }
+
+    &__outOfRange {
+        background-color: palevioletred;
+    }
+
+    &__stats {
+        display: flex;
+        justify-content: center;
+        font-weight: 600
+    }
+
+    &__data {
+        margin-top: 0;
+        font-weight: 600;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: white;
+
+        &:visited {
+            color: white;
+        }
+    }
+
+    &__edit {
+        width: 25%;
+        background-color: #38579b;
+        text-decoration: none;
+        border-radius: 25px;
+        margin-top: .5rem;
+    }
+
+    &__upcoming-button {
+        background-color: white;
+        border: #38579b 2px solid;
+        color: #38579b;
+        border-radius: 25px;
+        padding: .5rem;
+        font-weight: 600;
+    }
+
+    &__taken-button {
+        background-color: white;
+        border: #38579b 2px solid;
+        color: #38579b;
+        border-radius: 25px;
+        padding: .5rem;
+        font-weight: 600;
+    }
+}

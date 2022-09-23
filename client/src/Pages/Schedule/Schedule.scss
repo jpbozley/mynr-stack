@@ -1,0 +1,54 @@
+.Schedule {
+
+
+    &__list {
+        list-style: none;
+        padding-left: 0;
+        width: 15rem;
+    }
+
+    &__container {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__list-item {
+        text-align: left;
+        color: #000080;
+        font-weight: 600;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: .5rem;
+        padding-right: .5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        &__active {
+            font-weight: 700;
+            color: white;
+            background-color: #000080;
+            margin-top: .5rem;
+            margin-bottom: .5rem;
+            padding-top: .25rem;
+            padding-bottom: .25rem;
+        }
+    }
+
+    &__link {
+        text-decoration: none;
+
+        &:visited {
+            color: #38579b;
+        }
+    }
+
+    &__button {
+        background-color: white;
+        border: #38579b 2px solid;
+        color: #38579b;
+        border-radius: 25px;
+        padding: .5rem;
+        font-weight: 600;
+    }
+}
