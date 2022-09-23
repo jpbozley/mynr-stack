@@ -28,6 +28,7 @@ function Home({ checkup, schedule, taken, setTaken, next, setNext }) {
             <div className="Home__container">
                 <h3 className="Home__stats">Your {next === true ? "upcoming" : "previous"} INR check {next === true ? "is" : "was"} on:</h3>
                 <h4 className="Home__data">{next === true ? checkup.data.dateNext : checkup.data.date}</h4>
+                <div><button className={`Home__prep ${next === true ? "" : "Home__display-none"}`}><Link className="Home__prep-link" to="/preparation">Intake Forms</Link></button></div>
                 <button className="Home__upcoming-button" onClick={nextHandler}>{next === true ? "PREVIOUS" : "UPCOMING"}</button>
             </div>
             <div className={`Home__container ${(checkup.data.lowerRange <= checkup.data.reading) && (checkup.data.reading <= checkup.data.upperRange) ? "Home__inRange" : "Home__outOfRange"}`}>

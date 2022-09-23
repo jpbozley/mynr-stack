@@ -9,6 +9,7 @@ import EditSchedule from './Pages/EditSchedule/EditSchedule';
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
 import { Routes, BrowserRouter, Route } from 'react-router-dom';
+import Prepare from './Pages/Prepare/Prepare';
 
 function App() {
 
@@ -54,6 +55,7 @@ function App() {
           <Route path="/schedule" element={<Schedule schedule={schedule} />}></Route>
           <Route path="/edit" element={<EditDetails setCheckup={setCheckup} checkup={checkup} />}></Route>
           <Route path="/schedule/edit" element={<EditSchedule setSchedule={setSchedule} schedule={schedule} />}></Route>
+          <Route path="/preparation" element={<Prepare />}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>

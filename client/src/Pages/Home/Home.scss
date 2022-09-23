@@ -15,6 +15,29 @@
         }
     }
 
+    &__prep {
+        background-color: #6EBB51;
+        border: $primary-color 2px solid;
+        color: $primary-color;
+        border-radius: 25px;
+        padding: .5rem;
+        font-weight: 600;
+        margin-bottom: .75rem;
+    }
+
+    &__prep-link {
+        color: $primary-color;
+        text-decoration: none;
+
+        &:visited {
+            color: $primary-color;
+        }
+    }
+
+    &__display-none {
+        display: none;
+    }
+
     &__inRange {
         background-color: $inRange
     }
@@ -22,6 +45,8 @@
     &__outOfRange {
         background-color: $outOfRange;
     }
+
+
 
     &__stats {
         display: flex;

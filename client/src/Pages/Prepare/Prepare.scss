@@ -1,0 +1,23 @@
+.prepare {
+    margin-top: 2rem;
+
+    &__container {
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        width: 50vw;
+        margin: auto;
+    }
+
+    &__input {
+        width: 70%;
+
+    }
+}
