@@ -1,4 +1,5 @@
 @use "../../styles/partials/colors" as *;
+@use "../../styles/partials/breakpoints" as *;
 
 
 .Footer {
@@ -8,8 +9,14 @@
     display: flex;
     background-color: $medical;
     color: $primary-color;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    align-items: center;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+
+    @media (min-width: $desktop-breakpoint) {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
 
     &__list {
         display: flex;

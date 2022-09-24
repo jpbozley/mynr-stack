@@ -6,7 +6,6 @@ const { stringify } = require("querystring");
 require("dotenv").config();
 const { PORT, BACKEND_URL } = process.env;
 const { v4: uuidv4 } = require('uuid');
-const { arrayBuffer } = require("stream/consumers");
 
 //cors middleware
 app.use(cors());
