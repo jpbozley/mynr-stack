@@ -1,3 +1,7 @@
+@use "../../styles/global.scss" as *;
+@use "../../styles/partials/colors" as *;
+
+
 .editSchedule {
     &__form {
         display: flex;
@@ -10,5 +14,14 @@
         flex-direction: column;
         width: 80%;
         padding-bottom: 1rem;
+    }
+
+    &__button {
+        background-color: $primary-color;
+        border: $medical 2px solid;
+        color: $medical;
+        border-radius: 25px;
+        padding: .5rem;
+        font-weight: 600;
     }
 }
