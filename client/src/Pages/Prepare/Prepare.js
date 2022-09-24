@@ -19,11 +19,15 @@ function Prepare() {
                     <input type="checkbox" value="true" name="missedDoses" />
                 </div>
                 <div className="prepare__container">
+                    <label htmlFor="extraDoses">Check here if you have taken any extra doses</label>
+                    <input type="checkbox" value="true" name="extraDoses" />
+                </div>
+                <div className="prepare__container">
                     <label htmlFor="leafyGreens">Check here if you have had excessive leafy greens</label>
                     <input type="checkbox" value="true" name="leafyGreens" />
                 </div>
-                <input type="submit" value="Send" />
-                <input type="reset" value="Reset" />
+                <input className="prepare__submit" type="submit" value="Send" />
+                <input className="prepare__reset" type="reset" value="Reset" />
             </form>
         </div>
     );

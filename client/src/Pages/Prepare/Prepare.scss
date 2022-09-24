@@ -1,3 +1,6 @@
+@use "../../styles/global.scss" as *;
+@use "../../styles/partials/colors" as *;
+
 .prepare {
     margin-top: 2rem;
 
@@ -19,5 +22,29 @@
     &__input {
         width: 70%;
 
+    }
+
+    &__submit {
+        background-color: #1F6929;
+        border: #1F6929 2px solid;
+        color: $primary-color;
+        border-radius: 25px;
+        padding: .5rem;
+        font-weight: 600;
+        width: 50%;
+        margin: auto;
+        margin-top: .5rem;
+    }
+
+    &__reset {
+        background-color: $delete;
+        border: $delete 2px solid;
+        color: $primary-color;
+        border-radius: 25px;
+        padding: .5rem;
+        font-weight: 600;
+        width: 50%;
+        margin: auto;
+        margin-top: .5rem;
     }
 }
