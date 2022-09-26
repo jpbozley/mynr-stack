@@ -12,6 +12,15 @@
         flex-direction: column;
     }
 
+    &__input {
+        border-radius: 10%;
+        border: 2px solid $medical
+    }
+
+    &__input-div {
+        margin-bottom: .75rem;
+    }
+
     &__interactions {
         display: flex;
         justify-content: center;

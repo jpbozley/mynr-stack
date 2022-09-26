@@ -63,11 +63,11 @@ function Medications({ medications, setMedications }) {
                 })}
             </ul>
             <form ref={formRef} onSubmit={newMedHandler}>
-                <div>
-                    <input type="text" name="name" placeholder="Enter medication name" />
+                <div className="Medications__input-div">
+                    <input className="Medications__input" type="text" name="name" placeholder="Enter medication name" />
                 </div>
-                <div>
-                    <input type="text" name="dose" placeholder="Enter medication dose" />
+                <div className="Medications__input-div">
+                    <input className="Medications__input" type="text" name="dose" placeholder="Enter medication dose" />
                 </div>
                 <button className="Medications__button">Submit</button>
             </form>
@@ -76,7 +76,7 @@ function Medications({ medications, setMedications }) {
                 <h2 className='Medications__name'>{medicineName}</h2>
                 <p className="Medications__interactions">{interactionString}</p>
                 <form onSubmit={submitHandler}>
-                    <div><input name="name" type="text" placeholder="Enter medication name" /></div>
+                    <div><input className="Medications__input" name="name" type="text" placeholder="Enter medication name" /></div>
                     <button className="Medications__button">Look up interaction</button>
                 </form>
             </div>

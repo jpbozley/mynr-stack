@@ -10,7 +10,7 @@ function Header() {
             <h1 className="Header__title"><img className="Header__title-icon" src={heartIcon} alt="" />  MyNR</h1>
             <ul className="Header__list">
                 <li>
-                    <NavLink className="Header__link" to="/">Home</NavLink>
+                    <NavLink className="Header__link" to="/" end>Home</NavLink>
                 </li>
                 <li>
                     <NavLink className="Header__link" to="/Schedule">Schedule</NavLink></li>

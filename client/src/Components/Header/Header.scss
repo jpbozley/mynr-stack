@@ -15,6 +15,8 @@
     }
 }
 
+
+
 .Header {
     background-color: $medical;
     color: $primary-color;
@@ -46,4 +48,9 @@
         text-decoration: none;
         color: $primary-color;
     }
+}
+
+.active {
+    text-decoration: underline 1px $primary-color;
+    font-weight: 700;
 }
