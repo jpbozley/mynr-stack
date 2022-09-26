@@ -19,7 +19,7 @@ BACKEND_URL = http://localhost
 NPM i will need to be run to install the following dependencies:
 React, React-router-dom, sass, and uuid
 
-In order to get the app up and running, CD into the server directory to run node index, and then cd into the client directory to run NPM Start
+In order to get the app up and running, cd into the server directory to run node index, and then cd into the client directory to run NPM Start
 
 API references
 This app uses two API calls through the NIH, but neither require authentication keys. The URLs for the calls are generated dynamically based on user input of medication names.
